@@ -1,0 +1,128 @@
+{
+    "_id": {
+        "$oid": "5e4178ca408827871431aa5f"
+    },
+    "Id": 103,
+    "Name": "Dylan",
+    "TransactionId": "tran4",
+    "Transaction": [{
+            "ItemId": "a100",
+            "price": 200
+        },
+        {
+            "ItemId": "a110",
+            "price": 200
+        }
+    ],
+    "Subscriber": true,
+    "Payment": null,
+    "Note": "Payment is Null"
+} {
+    "_id": {
+        "$oid": "5e4178ca408827871431aa60"
+    },
+    "Id": 102,
+    "Name": "Margaret",
+    "TransactionId": "tran3",
+    "Transaction": [{
+            "ItemId": "a100",
+            "price": 200
+        },
+        {
+            "ItemId": "a110",
+            "price": 200
+        }
+    ],
+    "Subscriber": true,
+    "Payment": {
+        "Type": "Credit-Card",
+        "Total": 400,
+        "Success": true
+    }
+} {
+    "_id": {
+        "$oid": "5e4178ca408827871431aa61"
+    },
+    "Id": 104,
+    "Name": "Oliver",
+    "TransactionId": "tran5",
+    "Transaction": [{
+            "ItemId": "a100",
+            "price": 200
+        },
+        {
+            "ItemId": "a110",
+            "price": 200
+        }
+    ],
+    "Subscriber": true,
+    "Payment": {
+        "Total": 400,
+        "Success": true
+    },
+    "Note": "Payment Type is missing"
+} {
+    "_id": {
+        "$oid": "5e4178ca408827871431aa62"
+    },
+    "Id": 101,
+    "Name": "Tom",
+    "TransactionId": "tran2",
+    "Transaction": [{
+            "ItemId": "a100",
+            "price": 200
+        },
+        {
+            "ItemId": "a110",
+            "price": 200
+        }
+    ],
+    "Subscriber": true,
+    "Payment": {
+        "Type": "Debit-Card",
+        "Total": 400,
+        "Success": true
+    },
+    "Note": null
+} {
+    "_id": {
+        "$oid": "5e4178ca408827871431aa63"
+    },
+    "Id": 100,
+    "Name": "ZZZZZZ",
+    "TransactionId": "tran1",
+    "Transaction": [{
+            "ItemId": "a100",
+            "price": 2000000000
+        },
+        {
+            "ItemId": "a110",
+            "price": 200
+        }
+    ],
+    "Subscriber": true,
+    "Payment": {
+        "Type": "Credit-Card",
+        "Total": 400,
+        "Success": true
+    },
+    "Note": "1st Complete Record"
+} {
+    "_id": {
+        "$oid": "5e4178ca408827871431aa64"
+    },
+    "Id": 105,
+    "Name": "Sarah",
+    "TransactionId": "tran6",
+    "Transaction": [{
+            "ItemId": "a100",
+            "price": 200
+        },
+        {
+            "ItemId": "a110",
+            "price": 200
+        }
+    ],
+    "Subscriber": true,
+    "Note": "Payment is missing"
+}
